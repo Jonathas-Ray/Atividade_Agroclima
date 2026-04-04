@@ -1,0 +1,8 @@
+services:
+  agro-tests:
+    build: .
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=test
