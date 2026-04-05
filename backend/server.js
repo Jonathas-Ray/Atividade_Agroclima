@@ -20,7 +20,7 @@ app.get("/irrigation", async (req, res) => {
 
         
         res.json({
-            temp: weather.temp,
+            temperature: weather.temperature,
             advice: advice
         });
 
